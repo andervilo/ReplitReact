@@ -33,10 +33,10 @@ function App() {
   return (
     <>
       <h1>Lista de Tarefas</h1>
-      <button onClick={() => showAll()}>Todas</button>
-      <button onClick={() => showFinalizadas()}>Fializadas</button>
-      <button onClick={() => showNaoFinalizadas()}>Nao Finalizadas</button>
-      <table>
+      <button className="btn btn-info" onClick={() => showAll()}>Todas</button>
+      <button className="btn btn-success" onClick={() => showFinalizadas()}>Fializadas</button>
+      <button className="btn btn-danger" onClick={() => showNaoFinalizadas()}>Nao Finalizadas</button>
+      <table className="table table-striped">
         <thead>
           <tr>
             <th>#ID</th>

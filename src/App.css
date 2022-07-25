@@ -1,5 +1,1 @@
-main {
-  text-align: center;
-  vertical-align: center;
-  line-height: 100vh
-}
+import 'bootstrap/dist/css/bootstrap.css';
